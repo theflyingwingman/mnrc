@@ -10,18 +10,18 @@ body {
     font-family: 'Montserrat', sans-serif;
     min-height: 100vh;
     color: #fff;
-    overflow: hidden;
 }
 
 .hero {
-    height: 100vh;
-    background: url('https://images.unsplash.com/photo-1533240332313-0db49b459ad6?q=80&w=3540') center/cover no-repeat;
+    min-height: 100vh;
+    background: url('https://images.unsplash.com/photo-1560354892-75d8f5d0b5e9?q=80&w=2994&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover fixed no-repeat;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 2rem;
+    overflow-y: auto;
 }
 
 .overlay {
@@ -114,7 +114,8 @@ h1 {
     .hero {
         height: auto;
         min-height: 100vh;
-        padding: 2rem 1rem;
+        padding: 4rem 1rem;
+        background-attachment: scroll;
     }
     
     h1 {
@@ -124,6 +125,8 @@ h1 {
 
     .countdown-container {
         grid-template-columns: 1fr;
+        width: 100%;
+        padding-bottom: 2rem;
     }
 
     .countdown-box {
