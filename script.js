@@ -16,8 +16,8 @@ function animateValue(obj, start, end, duration) {
 // Start the counter animation when the page loads
 document.addEventListener('DOMContentLoaded', function() {
     const counter = document.getElementById('distance-counter');
-    // Animate from 0 to 649 over 2 seconds (2000ms)
-    animateValue(counter, 0, 649, 2000);
+    // Animate from 0 to 639 over 2 seconds (2000ms)
+    animateValue(counter, 0, 639, 2000);
 });
 
 
