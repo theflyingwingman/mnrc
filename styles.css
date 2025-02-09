@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -57,6 +59,11 @@ h1 {
     text-align: center;
     transition: transform 0.3s ease, background-color 0.3s ease;
     border: 1px solid rgba(255,255,255,0.1);
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .countdown-box:hover {
@@ -76,6 +83,10 @@ h1 {
     color: #4CAF50;
     margin: 1rem 0;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    font-family: 'Roboto Mono', monospace;
+    min-width: 280px;
+    display: inline-block;
+    letter-spacing: -1px;
 }
 
 .race-info {
@@ -117,33 +128,11 @@ h1 {
 
     .countdown-box {
         padding: 1rem;
+        min-height: 180px;
     }
 
     .countdown {
+        min-width: 240px;
         font-size: 1.5rem;
-        font-weight: bold;
-        color: #4CAF50;
-        margin: 1rem 0;
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
-        font-family: 'Roboto Mono', monospace;
-        min-width: 240px; /* Fixed width */
-        display: inline-block; /* Ensures consistent width */
-        letter-spacing: -1px; /* Tightens up the spacing a bit */
+    }
 }
-
-/* Add these new classes for consistent box sizing */
-.countdown-box {
-    background: rgba(255,255,255,0.1);
-    backdrop-filter: blur(10px);
-    padding: 1.5rem;
-    border-radius: 15px;
-    text-align: center;
-    transition: transform 0.3s ease, background-color 0.3s ease;
-    border: 1px solid rgba(255,255,255,0.1);
-    min-height: 180px; /* Fixed height */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
