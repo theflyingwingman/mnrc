@@ -3,71 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monday Night Run Club</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Race Countdown</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main class="hero">
+    <div class="hero">
         <div class="overlay"></div>
-        <h1>Upcoming Races for the Monday Night Right Club</h1>
-        
+        <h1>Race Countdown</h1>
         <div class="countdown-container">
             <div class="countdown-box">
                 <h2 class="race-name">Run Ridge Run</h2>
                 <div id="runridge" class="countdown"></div>
                 <div class="tags-container">
-                    <span class="tag">Alex</span>
-                    <span class="tag">Ben</span>
-                    <span class="tag">Kevin</span>
+                    <span class="tag tag-alex">Alex</span>
+                    <span class="tag tag-ben">Ben</span>
+                    <span class="tag tag-kevin">Kevin</span>
                 </div>
                 <p class="race-info">February 22, 2025 - 25km</p>
                 <a href="https://trailrunning.ca/race/run-ridge-run/#course" class="race-link" target="_blank" rel="noopener noreferrer">Race Details</a>
             </div>
-        
-            <div class="countdown-box">
-                <h2 class="race-name">Diez Vistas</h2>
-                <div id="diezvistas" class="countdown"></div>
-                <div class="tags-container">
-                    <span class="tag">Kevin</span>
-                </div>
-                <p class="race-info">April 12, 2025 - 50km</p>
-                <a href="https://trailrunning.ca/race/diez-vista/#schedule" class="race-link" target="_blank" rel="noopener noreferrer">Race Details</a>
-            </div>
-        
+
             <div class="countdown-box">
                 <h2 class="race-name">Chuckanut 50K</h2>
                 <div id="chuckanut" class="countdown"></div>
                 <div class="tags-container">
-                    <span class="tag">Chase</span>
+                    <span class="tag tag-chase">Chase</span>
                 </div>
                 <p class="race-info">March 15, 2025 - 50km</p>
                 <a href="https://chuckanut50krace.com/courseinfo" class="race-link" target="_blank" rel="noopener noreferrer">Race Details</a>
             </div>
-        
+
+            <div class="countdown-box">
+                <h2 class="race-name">Diez Vistas</h2>
+                <div id="diezvistas" class="countdown"></div>
+                <div class="tags-container">
+                    <span class="tag tag-kevin">Kevin</span>
+                </div>
+                <p class="race-info">April 12, 2025 - 50km</p>
+                <a href="https://trailrunning.ca/race/diez-vista/#schedule" class="race-link" target="_blank" rel="noopener noreferrer">Race Details</a>
+            </div>
+
             <div class="countdown-box">
                 <h2 class="race-name">Cocodona 250</h2>
                 <div id="cocodona" class="countdown"></div>
                 <div class="tags-container">
-                    <span class="tag">Chase</span>
+                    <span class="tag tag-chase">Chase</span>
                     <span class="tag pacer">Pacer: Kevin</span>
                     <span class="tag pacer">Pacer: Alex</span>
                 </div>
                 <p class="race-info">May 5, 2025 - 250 miles</p>
                 <a href="https://www.aravaiparunning.com/cocodona2/" class="race-link" target="_blank" rel="noopener noreferrer">Race Details</a>
             </div>
-        
+
             <div class="countdown-box">
                 <h2 class="race-name">Alpenglow</h2>
                 <div id="alpenglow" class="countdown"></div>
                 <div class="tags-container">
-                    <span class="tag">Alex</span>
+                    <span class="tag tag-alex">Alex</span>
                 </div>
                 <p class="race-info">July 4, 2025 - 25km</p>
                 <a href="https://trailrunning.ca/race/alpenglow/" class="race-link" target="_blank" rel="noopener noreferrer">Race Details</a>
             </div>
         </div>
-    </main>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
